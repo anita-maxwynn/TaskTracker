@@ -1,48 +1,61 @@
 # 🚀 TaskTracker: Web-Based Project/Task Management System
 
-[cite_start]TaskTracker is a web-based system designed for efficient **project and task management**, offering core features like scheduling, user roles, and status dashboards to enhance team collaboration and productivity[cite: 2, 3].
+TaskTracker is a web-based system designed for efficient **project and task management**. It offers features like scheduling, user roles, and status dashboards to enhance team collaboration and productivity.
+
+---
 
 ## ✨ Core Features
 
-* [cite_start]**Project & Task Management**: Easily **create, update, and track** projects and their associated tasks[cite: 18].
-* [cite_start]**Scheduling and Status Dashboards**: Assign **deadlines and statuses** to tasks for a clear visual representation of progress via real-time dashboards[cite: 21, 22].
-* [cite_start]**User Roles and Authentication**: Secure resource access and granular control through managed **user roles** and robust authentication/authorization mechanisms[cite: 15, 16].
-* [cite_start]**RESTful API**: Clean separation between the frontend and backend using a **RESTful API** for all data communication[cite: 10, 26].
+- **Project & Task Management**: Create, update, and track projects and their associated tasks.
+- **Scheduling and Status Dashboards**: Assign deadlines and statuses to tasks with a real-time dashboard to visualize progress.
+- **User Roles and Authentication**: Secure access and granular control through user roles and authentication.
+- **RESTful API**: Clean separation between frontend and backend using a RESTful API.
 
 ---
 
 ## 🛠️ Tools and Technologies
 
-[cite_start]This system is built using a modern **three-tier architecture** [cite: 26][cite_start], ensuring a clean separation of concerns and maintainability[cite: 27].
+TaskTracker uses a modern three-tier architecture for scalability and maintainability.
 
-| Component | Technology | Description |
-| :--- | :--- | :--- |
-| **Backend Framework** | **Django** (Python) | [cite_start]Handles application logic, models, and API endpoints[cite: 4, 6, 26]. |
-| **Frontend Framework** | **React with TypeScript** | [cite_start]Manages the user interface, state, and client-side logic[cite: 4, 7, 28]. |
-| **Database** | **SQLite** | [cite_start]Simple and easy-to-set-up relational database for development[cite: 4, 8, 32]. |
-| **API Communication** | **Axios** | [cite_start]HTTP client for reliable frontend-backend communication[cite: 9, 28]. |
-| **Data Layer** | **Django ORM** | [cite_start]Defines relational models for Users, Projects, Tasks, and Roles[cite: 10, 31]. |
+| Component           | Technology         | Description                                            |
+|---------------------|-------------------|--------------------------------------------------------|
+| Backend Framework   | Django (Python)   | Handles application logic, models, and API endpoints   |
+| Frontend Framework  | React + TypeScript| Manages the user interface and state                   |
+| Database            | SQLite            | Relational database for development                    |
+| API Communication   | Axios             | HTTP client for frontend-backend communication         |
+| Data Layer          | Django ORM        | Defines models for Users, Projects, Tasks, and Roles   |
+
+---
+
+## 📊 Language Composition
+
+This repository is primarily written in:
+
+- **TypeScript:** 39.7%
+- **Python:** 33.1%
+- **CSS:** 26.1%
+- **Other:** 1.1%
 
 ---
 
 ## 📐 System Architecture
 
-[cite_start]The application follows a three-tier structure[cite: 26]:
+The application follows a three-tier structure:
 
-1.  [cite_start]**Presentational Layer**: Handled by **React** for the User Interface and state management[cite: 26, 28].
-2.  [cite_start]**Application Layer**: Managed by the **Django REST API** for business logic and data transmission[cite: 26, 27].
-3.  [cite_start]**Data Layer**: Utilizes **SQLite** to store relational data defined by Django's ORM[cite: 26, 31].
+1. **Presentational Layer**: React handles the UI and state management.
+2. **Application Layer**: Django REST API for business logic and data transmission.
+3. **Data Layer**: SQLite for relational data managed by Django ORM.
 
-### Key Files/Modules
+#### Key Files/Modules
 
-| File/Module | Role |
-| :--- | :--- |
-| `models.py` | [cite_start]Defines **database ORM models** (Projects, Tasks, Users, Roles)[cite: 31, 45]. |
-| `views.py` | [cite_start]**Backend logic** for handling HTTP requests and API endpoints[cite: 45]. |
-| `serializers.py` | [cite_start]Handles the **serialization** of models for JSON API communication[cite: 45]. |
-| `urls.py` | [cite_start]Centralized **URL dispatcher** for routing REST endpoints[cite: 36, 45]. |
-| `auth.ts` | [cite_start]**Frontend authentication** logic and state management[cite: 16, 45]. |
-| `projects.ts` & `tasks.ts` | [cite_start]Frontend modules managing project/task-related **UI and API interaction**[cite: 19, 45]. |
+| File/Module         | Role                                                  |
+|---------------------|-------------------------------------------------------|
+| `models.py`         | Defines database ORM models (Projects, Tasks, Users)  |
+| `views.py`          | Backend logic for handling HTTP requests and APIs     |
+| `serializers.py`    | Handles serialization of models for JSON APIs         |
+| `urls.py`           | Centralized URL dispatcher for REST endpoints         |
+| `auth.ts`           | Frontend authentication logic and state management    |
+| `projects.ts`, `tasks.ts` | Frontend modules for UI and API interaction    |
 
 ---
 
@@ -50,27 +63,27 @@
 
 ### Prerequisites
 
-* Python (with Django)
-* Node.js and npm/yarn (for React)
+- Python (with Django)
+- Node.js and npm/yarn (for React)
 
 ### Installation
 
-*Instructions would typically go here for setting up the backend (Django) and frontend (React).*
+*Instructions for setting up the backend (Django) and frontend (React) should be added here.*
 
 ---
 
 ## 📚 Learning Outcomes
 
-The development of this project emphasized several key software engineering practices:
+Key software engineering practices emphasized in this project:
 
-* [cite_start]**Full-Stack Development**: Practical experience with the full lifecycle using **Django and React**[cite: 47].
-* [cite_start]**Architectural Practices**: Application of **ORM modeling, RESTful API design**, and frontend state management[cite: 48].
-* [cite_start]**CASE Tools**: Exposure to tools like **Django Admin** for model management [cite: 39, 40] [cite_start]and React Developer Tools for debugging[cite: 41].
-* [cite_start]**Code Quality**: Implementation of modular coding, configuration management with separate environment settings, and basic testing practices[cite: 50, 51].
+- **Full-Stack Development**: Practical experience with Django and React.
+- **Architecture**: ORM modeling, RESTful API design, and frontend state management.
+- **CASE Tools**: Django Admin for backend, React Developer Tools for frontend.
+- **Code Quality**: Modular coding, configuration management, and basic testing.
 
 ---
 
 ## 🔗 Repository
 
-The full codebase for this project can be found on GitHub:
-[cite_start]**[https://github.com/anita-maxwynn/TaskTracker.git](https://github.com/anita-maxwynn/TaskTracker.git)** [cite: 53]
+The full codebase for this project is available on GitHub:  
+**[https://github.com/anita-maxwynn/TaskTracker.git](https://github.com/anita-maxwynn/TaskTracker.git)**
